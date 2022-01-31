@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" stylesheets="@styles.css" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.w22comp11gcw4regex.HelloController">
+   <children>
+      <HBox alignment="CENTER" layoutX="120.0" layoutY="145.0" nodeOrientation="LEFT_TO_RIGHT" prefHeight="44.0" prefWidth="382.0" spacing="50.0">
+         <children>
+            <Label stylesheets="@styles.css" text="Enter Phone Number" />
+            <TextField fx:id="phoneNumTextField" alignment="CENTER" />
+         </children>
+      </HBox>
+      <Label fx:id="resultLabel" layoutX="286.0" layoutY="226.0" text="Label" />
+      <Label fx:id="replaceAllLabel" layoutX="286.0" layoutY="260.0" text="Label" />
+      <Label fx:id="formattedPhoneNum" layoutX="286.0" layoutY="308.0" text="Label" />
+   </children>
+</AnchorPane>
